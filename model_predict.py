@@ -1,7 +1,9 @@
 from ultralytics import YOLO
 
+test_img_source = '/Users/seunghunjang/Desktop/YOLO_Classification/images'
+
 # Load a model
 model = YOLO('best.pt')
 
 # Predict with a model
-results = model('/Users/seunghunjang/Desktop/YOLO_Classification/TOP_4_B.PNG', save=True)
+results = model(source=test_img_source, save=True)
