@@ -6,4 +6,4 @@ from ultralytics import YOLO
 model = YOLO('yolov8n-cls.pt')  # load a pretrained model (recommended for training)
 
 # Train the model
-results = model.train(data='path/to/dataset', epochs=100, imgsz=64)
+results = model.train(data='/Users/seunghunjang/Desktop/YOLO_Classification/dataset', epochs=100, imgsz=64)
