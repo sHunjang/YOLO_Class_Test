@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-test_img_source = '/Users/seunghunjang/Desktop/YOLO_Classification/images'
+test_img_source = '/Users/seunghunjang/Desktop/YOLO_Classification/testset'
 
 # Load a model
 model = YOLO('best.pt')
